@@ -17,5 +17,6 @@ def some_gen(start, stop, func):
 
 print(list(some_gen(2, 4, pow)))
 
+
 for i in some_gen(2, 4, pow):
     print(i)
