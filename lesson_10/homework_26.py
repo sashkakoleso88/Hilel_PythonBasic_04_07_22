@@ -28,6 +28,7 @@ def first_word(string: str) -> str:
 
     return string_list[0]
 
+
 print(first_word("Hello world"))
 print(first_word("greetings, friends"))
 print(first_word("don't touch it"))
